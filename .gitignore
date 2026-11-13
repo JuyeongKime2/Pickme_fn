@@ -1,0 +1,30 @@
+# 공통
+.env
+.env.local
+.DS_Store
+*.log
+
+# Spring Boot
+backend/build/
+backend/.gradle/
+backend/bin/
+backend/out/
+*.class
+
+# FastAPI
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+ai-server/models/*.pkl
+ai-server/models/*.pt
+
+# React
+node_modules/
+frontend/dist/
+
+# IDE (.vscode 는 팀 공유용으로 커밋)
+.idea/
+*.iml
